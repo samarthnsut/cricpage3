@@ -1,0 +1,81 @@
+.item{
+  height: 2400px;
+  width: 200px;
+  background-color: #ff0090;
+  border: black 2px solid;
+  margin: 5px;
+  padding: 5px;
+}
+#div1{
+	background-color: blue;
+	display: flex;
+}
+#topdiv{
+	height: 75px;
+	background-color: #1eff00;
+	margin: 5px;
+	padding: 5px;
+	border: black 2px solid;
+}
+#div3{
+	flex-grow: 1;
+	animation-name: anime2;
+	animation-duration: 20s;
+	animation-iteration-count: 50;
+	animation-direction: alternate;
+}
+
+li ul{
+	display: none;;
+	color: green;
+}
+li:hover ul{
+	display: block;
+}
+.endlinks{
+	font-size: 25px;
+}
+#nextpage{
+	padding-left: 740px
+}
+
+#div2{
+	font-size: 22px;
+}
+h1{
+	font-size: 50px;
+}
+#heading2{
+	font-size: 30px;
+}
+	
+#head2{
+	padding-left: 800px;
+}
+#para2{
+	padding-left: 20px;
+}
+p{
+	font-size: 18px;
+}
+
+@keyframes anime2{
+	0%{
+		background-image: linear-gradient(#ea1a30,#ea1aad,#5b2b8a,#16ace2,#6bda6d,#c2de1b);
+	}
+	20%{
+		background-image: linear-gradient(#c2de1b,#ea1a30,#ea1aad,#5b2b8a,#16ace2,#6bda6d);
+	}
+	40%{
+		background-image: linear-gradient(#6bda6d,#c2de1b,#ea1a30,#ea1aad,#5b2b8a,#16ace2);
+	}
+	60%{
+		background-image: linear-gradient(#16ace2,#6bda6d,#c2de1b,#ea1a30,#ea1aad,#5b2b8a);
+	}
+	80%{
+		background-image: linear-gradient(#5b2b8a,#16ace2,#6bda6d,#c2de1b,#ea1a30,#ea1aad);
+	}
+	100%{
+		background-image: linear-gradient(#ea1aad,#5b2b8a,#16ace2,#6bda6d,#c2de1b,#ea1a30);
+	}
+}
