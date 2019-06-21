@@ -79,3 +79,29 @@ p{
 		background-image: linear-gradient(#ea1aad,#5b2b8a,#16ace2,#6bda6d,#c2de1b,#ea1a30);
 	}
 }
+
+
+@media (max-width: 1200px){
+	.item{
+		height: 5500px;
+	}
+	#nextpage{
+		padding-left: 1px;
+	}
+	#head2{
+		padding-left: 70px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	.item{
+		height: 7600px;
+	}
+	#nextpage{
+		padding-left: 1px;
+	}
+	#head2{
+		padding-left: 1px;
+	}
+}
