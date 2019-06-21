@@ -70,7 +70,7 @@ p{
 		background-image: radial-gradient(red,violet,yellow);
 	}
 }
-@media  (max-width: 1000px)  {
+@media  (max-width: 900px)  {
   .item{
   	height: 2500px;
   	width: 600px;
