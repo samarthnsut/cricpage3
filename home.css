@@ -24,6 +24,13 @@
 	animation-iteration-count: 50;
 	animation-direction: alternate;
 }
+li ul{
+	display: none;;
+	color: green;
+}
+li:hover ul{
+	display: block;
+}
 #div2{
 	font-size: 22px;
 }
@@ -63,3 +70,37 @@ p{
 		background-image: radial-gradient(red,violet,yellow);
 	}
 }
+@media  (max-width: 600px)  {
+  .item{
+  	height: 2500px;
+  	width: 600px;
+  }
+  #div3{
+  	order: -1;
+  	width: 300px;
+  }	
+  #div2{
+  	width: 150px;
+  }
+  #div4{
+  	width: 150px;
+  }
+  #topdiv{
+  	width: 600px;
+  }
+  #div1{
+  	width: 600px;
+  }
+  #link1{
+  	padding-left: 1px;
+  }
+  #head2{
+  	padding-left: 1px;
+  }
+
+}
+@media (max-width: 1200px){
+	#link1{
+		padding-left: 1px;
+	}
+} 
